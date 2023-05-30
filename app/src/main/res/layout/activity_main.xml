@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/desert"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt"
+        android:text="Computer Science S6"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/chesnagroteskmedium"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:scrollbars="none"
+        android:layout_below="@id/txt">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Développement mobile"
+                android:textColor="@color/black"
+                android:fontFamily="@font/chesnagroteskmedium"
+                android:gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="15dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Exam :"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/chesnagroteskmedium"
+                    android:layout_marginRight="10dp"/>
+                <EditText
+                    android:layout_width="80dp"
+                    android:id="@+id/exdam"
+                    android:textColor="@color/black"
+                    android:maxLength="5"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edit"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Tp :"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/chesnagroteskmedium"
+                    android:layout_marginRight="10dp"/>
+                <EditText
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:textColor="@color/black"
+                    android:maxLength="5"
+                    android:id="@+id/tpdam"
+                    android:background="@drawable/edit"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Intelligence artificielle"
+                android:textColor="@color/black"
+                android:fontFamily="@font/chesnagroteskmedium"
+                android:gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Exam :"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/chesnagroteskmedium"
+                    android:layout_marginRight="10dp"/>
+                <EditText
+                    android:layout_width="80dp"
+                    android:id="@+id/exia"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edit"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:maxLength="5"
+                    android:inputType="numberDecimal"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Tp :"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/chesnagroteskmedium"
+                    android:layout_marginRight="10dp"/>
+                <EditText
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/tpia"
+                    android:textColor="@color/black"
+                    android:maxLength="5"
+                    android:background="@drawable/edit"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Données semi structurées"
+                android:textColor="@color/black"
+                android:fontFamily="@font/chesnagroteskmedium"
+                android:gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Exam :"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/chesnagroteskmedium"
+                    android:layout_marginRight="10dp"/>
+                <EditText
+                    android:layout_width="80dp"
+                    android:id="@+id/exdss"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edit"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:maxLength="5"
+                    android:inputType="numberDecimal"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Tp :"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/chesnagroteskmedium"
+                    android:layout_marginRight="10dp"/>
+                <EditText
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/tpdss"
+                    android:background="@drawable/edit"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:maxLength="5"
+                    android:inputType="numberDecimal"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Sécurité informatique"
+                android:textColor="@color/black"
+                android:fontFamily="@font/chesnagroteskmedium"
+                android:gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Exam :"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/chesnagroteskmedium"
+                    android:layout_marginRight="10dp"/>
+                <EditText
+                    android:layout_width="80dp"
+                    android:id="@+id/exsec"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edit"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:maxLength="5"
+                    android:inputType="numberDecimal"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Tp :"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/chesnagroteskmedium"
+                    android:layout_marginRight="10dp"/>
+                <EditText
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/tpsec"
+                    android:textColor="@color/black"
+                    android:maxLength="5"
+                    android:background="@drawable/edit"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Rédaction scientifique"
+                android:textColor="@color/black"
+                android:fontFamily="@font/chesnagroteskmedium"
+                android:gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Exam :"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/chesnagroteskmedium"
+                    android:layout_marginRight="10dp"/>
+                <EditText
+                    android:layout_width="80dp"
+                    android:id="@+id/exred"
+                    android:textColor="@color/black"
+                    android:maxLength="5"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edit"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="StartUP"
+                android:textColor="@color/black"
+                android:fontFamily="@font/chesnagroteskmedium"
+                android:gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Exam :"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/chesnagroteskmedium"
+                    android:layout_marginRight="10dp"/>
+                <EditText
+                    android:layout_width="80dp"
+                    android:id="@+id/start"
+                    android:layout_height="40dp"
+                    android:textColor="@color/black"
+                    android:maxLength="5"
+                    android:background="@drawable/edit"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Projet fin d'etude"
+                android:textColor="@color/black"
+                android:fontFamily="@font/chesnagroteskmedium"
+                android:gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Note :"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/chesnagroteskmedium"
+                    android:layout_marginRight="10dp"/>
+                <EditText
+                    android:layout_width="80dp"
+                    android:id="@+id/projet"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edit"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:maxLength="5"
+                    android:inputType="numberDecimal"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginBottom="40dp">
+                <Button
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:backgroundTint="@color/brown"
+                    android:textColor="@color/white"
+                    android:onClick="calc"
+                    android:text="Calculer"/>
+            </LinearLayout></LinearLayout>
+
+
+
+        </ScrollView>
+
+
+</RelativeLayout>
